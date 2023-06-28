@@ -1,0 +1,5 @@
+
+ score = 109
+ score = 106
+ score = 104
+ score = 107
