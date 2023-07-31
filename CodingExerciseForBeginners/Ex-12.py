@@ -7,3 +7,4 @@ print(names)
 l = len(names)
 rand_num = random.randint(0,l-1)
 print(f'{names[rand_num]} will pay the bill')
+

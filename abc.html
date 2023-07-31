@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a69abb9f6bcb8fb5be53b09b9b6dc37f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a69abb9f6bcb8fb5be53b09b9b6dc37f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a69abb9f6bcb8fb5be53b09b9b6dc37f = L.map(
+                "map_a69abb9f6bcb8fb5be53b09b9b6dc37f",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    title: "OpenStreetMap",
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4505ee1859fb91c05be2a575f56bcdcb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a69abb9f6bcb8fb5be53b09b9b6dc37f);
+        
+    
+            var marker_cbbec107def3af9bf46afe163736c777 = L.marker(
+                [18.2, 83.0],
+                {}
+            ).addTo(map_a69abb9f6bcb8fb5be53b09b9b6dc37f);
+        
+    
+        var popup_60cf9b84c599d599fcc3b297037dd398 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24e6a7c785f455d727999ea8f2543fd3 = $(`<div id="html_24e6a7c785f455d727999ea8f2543fd3" style="width: 100.0%; height: 100.0%;">srikakulam</div>`)[0];
+                popup_60cf9b84c599d599fcc3b297037dd398.setContent(html_24e6a7c785f455d727999ea8f2543fd3);
+            
+        
+
+        marker_cbbec107def3af9bf46afe163736c777.bindPopup(popup_60cf9b84c599d599fcc3b297037dd398)
+        ;
+
+        
+    
+    
+            var marker_dcca91b889bb9e6ae8c009cdef250645 = L.marker(
+                [16.0, 80.0],
+                {}
+            ).addTo(map_a69abb9f6bcb8fb5be53b09b9b6dc37f);
+        
+    
+        var popup_37f6ebe52d66052d5ed9e793e03d2c73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_485395b6eca3765be1cb2341f7d50260 = $(`<div id="html_485395b6eca3765be1cb2341f7d50260" style="width: 100.0%; height: 100.0%;">vijayawada</div>`)[0];
+                popup_37f6ebe52d66052d5ed9e793e03d2c73.setContent(html_485395b6eca3765be1cb2341f7d50260);
+            
+        
+
+        marker_dcca91b889bb9e6ae8c009cdef250645.bindPopup(popup_37f6ebe52d66052d5ed9e793e03d2c73)
+        ;
+
+        
+    
+    
+            var marker_01f894687608bcabc5c8c35c31467b78 = L.marker(
+                [18.9, 72.82],
+                {}
+            ).addTo(map_a69abb9f6bcb8fb5be53b09b9b6dc37f);
+        
+    
+        var popup_b6ffa5ddf07b4ac2925687da3cd987e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44ed8ef9f39defc8cbd4a87a429ece99 = $(`<div id="html_44ed8ef9f39defc8cbd4a87a429ece99" style="width: 100.0%; height: 100.0%;">mumbai</div>`)[0];
+                popup_b6ffa5ddf07b4ac2925687da3cd987e1.setContent(html_44ed8ef9f39defc8cbd4a87a429ece99);
+            
+        
+
+        marker_01f894687608bcabc5c8c35c31467b78.bindPopup(popup_b6ffa5ddf07b4ac2925687da3cd987e1)
+        ;
+
+        
+    
+    
+            var marker_02fb8938b3855886f712d00faf6f30d4 = L.marker(
+                [17.6, 83.2],
+                {}
+            ).addTo(map_a69abb9f6bcb8fb5be53b09b9b6dc37f);
+        
+    
+        var popup_adec6742470c758d665ecf0758f5a5c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ea867d7b4d59720ba2f26d0e1b428f3 = $(`<div id="html_6ea867d7b4d59720ba2f26d0e1b428f3" style="width: 100.0%; height: 100.0%;">vizag</div>`)[0];
+                popup_adec6742470c758d665ecf0758f5a5c1.setContent(html_6ea867d7b4d59720ba2f26d0e1b428f3);
+            
+        
+
+        marker_02fb8938b3855886f712d00faf6f30d4.bindPopup(popup_adec6742470c758d665ecf0758f5a5c1)
+        ;
+
+        
+    
+</script>
+</html>

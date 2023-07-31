@@ -5,3 +5,4 @@ if(x%2==0):
     print(f'Given number {x} is an even number')
 else:
     print(f'Given number {x} is a odd number')
+
