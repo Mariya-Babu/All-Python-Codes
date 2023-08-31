@@ -2,17 +2,17 @@
 
 #Grade Function takes marks and return grade
 def grade(marks):
-    if(marks<=100 and marks>=91):
+    if(marks>=91):
         return 'A+'
-    elif(marks<=90 and marks>=81):
+    elif(marks>=81):
         return 'A'
-    elif(marks<=80 and marks>=71):
+    elif(marks>=71):
         return 'B+'
-    elif(marks<=70 and marks>=61):
+    elif(marks>=61):
         return 'B'
-    elif(marks<=60 and marks>=51):
+    elif(marks>=51):
         return 'C'
-    elif(marks<=50 and marks>=41):
+    elif(marks>=41):
         return 'D'
     else:
         return 'F'
@@ -25,15 +25,7 @@ student_marks = {
     'Rahul' : 41,
     'Aniket' : 99,
     'Prem' : 34,
-    'Address' : {
-        'pin' : 4923983,
-        'city' : 'abk'
-
-    },
-    'coursers' : ['py','java','c','c++']
 }
-
-list1 = [{},{},{}]
 #student_grades
 student_grades = dict()
 

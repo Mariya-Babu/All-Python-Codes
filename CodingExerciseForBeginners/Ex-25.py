@@ -1,25 +1,20 @@
+#Checking the given year is Leap Year or Not
 def check_year(year):
-    if(year%4==0):
-        if(year%100==0):
-            # print('Given year is not a leap year!')
-            return 0
-            if(year%400==0):
-                # print('Given year is leap year ')
-                return 1
-            else:
-                # print('Given year is not a leap year ')
-                return 0
+    #If a year is divided by 400 then it is a leap year 
+    if(year%400 == 0):
+        return True
+    else:
+        #If a year is divided by 100 and not divided by 100 then it is a leap year
+        if(year%4==0 and year%100 !=0):
+            return True
         else:
-            # print('Given year is a leap year ')
-            return  
-        # print('Given year is not a leap year ')
-        return 0
+            return False
 
 
 year = int(input('Enter a year to check whether a given year is leap_year or not : '))
 month = int(input('Enter the month number : '))
 
-leap_year = check_year(year)
+isLeapYear = check_year(year)
 
 month_days = {
     1 : [31,'Jan'],
@@ -37,7 +32,7 @@ month_days = {
 
 }
 
-if(leap_year and month == 2):
+if(isLeapYear and month == 2):
     print('Feb having 29 days!')
 else:
     print(f'{month_days[month][1]} having {month_days[month][0]}!')
