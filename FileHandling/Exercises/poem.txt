@@ -1,0 +1,6 @@
+Poem File Text is Started Here!
+Warning: PowerShell detected that you might be using a screen reader and has disabled PSReadLine for compatibility purposes
+Banker's Algorithm implementation using java
+Enter no.of Processes : 
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.

@@ -1,0 +1,1 @@
+This is a file to which words are less the 4 characters i think there are 12 number of words are presnt with lessthan 4 characters.
